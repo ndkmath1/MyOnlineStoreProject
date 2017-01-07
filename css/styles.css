@@ -154,3 +154,53 @@ h3.border-bottom {
     height: 35px;
     width: 100px;
 }
+
+.tech-news {
+    padding: 10px;
+}
+
+h3.tech-news ~ div {
+    margin-bottom: 15px;
+    background-color: lavender;
+}
+
+@media screen and (max-width: 480px) {
+    #toolbox {
+        display: none;
+    }
+}
+
+#contain-tech-news {
+    padding: 5px;
+}
+
+.contain-banner-add > img {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.layout-item > div {
+    border: 1px solid red;
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.title-item {
+    padding: 5px;
+    width: 200px;
+}
+
+.layout-item .sell {
+    text-decoration: line-through;
+}
+
+.layout-item .price {
+    color: #f4511e;
+}
+
+.layout-item .name {
+
+}
