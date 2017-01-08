@@ -70,7 +70,23 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Me</a>
+            <!-- Add menu at here-->
+            <div class="menu-dropdown">
+                <a class="navbar-brand dropdown-btn" href="#">Category</a>
+                <div class="dropdown-content">
+                    <a href="#">Type 1</a>
+                    <a href="#">Type 2</a>
+                    <a href="#">Type 3</a>
+                    <a href="#">Type 1</a>
+                    <a href="#">Type 2</a>
+                    <a href="#">Type 3</a>
+                    <a href="#">Type 1</a>
+                </div>
+                <div class="sub-content">
+                    My SubContent;
+                </div>
+            </div>
+            <!---->
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-left">
@@ -743,7 +759,7 @@
 <!-- Set height and width with CSS -->
 <div id="googleMap" style="height:400px;width:100%;"></div>
 
-<div id="toolbox">
+<div id="toolbox-right">
     <ul>
         <li>
             <a href="#myPage" title="Home" class="btn btn-primary btn-lg pull-right"><i
@@ -760,7 +776,24 @@
     </ul>
 </div>
 
-<div id="phone-shop" class="btn">
+<div id="toolbox-left">
+    <ul>
+        <li>
+            <a href="#myPage" title="Home" class="btn btn-primary btn-lg pull-right"><i
+                    class="glyphicon glyphicon-home"></i></a>
+        </li>
+        <li>
+            <a href="#myPage" title="Feedback" class="btn btn-primary btn-lg pull-right"><i
+                    class="glyphicon glyphicon-envelope"></i></a>
+        </li>
+        <li>
+            <a href="#myPage" title="To Top" class="btn btn-primary btn-lg pull-right"><i
+                    class="glyphicon glyphicon-chevron-up"></i></a>
+        </li>
+    </ul>
+</div>
+
+<div id="contact-store" class="btn">
     <span class="glyphicon glyphicon-phone-alt"> Help:</span>
     <b>1800 9999</b>
 </div>
@@ -768,6 +801,7 @@
 <footer class="container-fluid text-center">
     <p><b>My Store Company</b></p>
     <p>Address: Hanoi, Vietnam</p>
+    <p>Email: <a href="mailto:ndkmath1@gmail.com">ndkmath1@gmail.com</a></p>
     <p>2017 &copy; My Store. All rights reserved. Developed by Khanh Nguyen.</p>
 </footer>
 </body>
